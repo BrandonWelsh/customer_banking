@@ -19,3 +19,5 @@ This section is dedicated to keep track of what I used to help complete this pro
 
 11/12/2023: Worked through much of the project. Uploading a complete but non-functional copy to github before I go through and change a bunch of stuff.
 
+11/12/2023 (part 2 electric boogaloo): Uploading a complete and functional, but I don't think is right copy to github. I will figure it out later.
+
