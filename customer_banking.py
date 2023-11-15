@@ -1,8 +1,10 @@
+# BRANDON WELSH - MODULE 3 CHALLENGE
 # Import the create_cd_account and create_savings_account functions
 # ADD YOUR CODE HERE
 from savings_account import create_savings_account
 from cd_account import create_cd_account
 
+#This is just for nice clean formatting purposes
 dashes = "-" * 30
 
 # Define the main function
@@ -13,7 +15,7 @@ def main():
     """
     # Prompt the user to set the savings balance, interest rate, and months for the savings account.
     # ADD YOUR CODE HERE
-    #NOTE: add a loop to check if input is valid, but only once you have this working
+
     savings_balance = float(input("Enter the savings account balance: "))
     savings_interest = float(input("Enter the savings interest rate (whole numbers. if 5%, type 5): "))
     savings_maturity = int(input("Enter the number of months for savings account: "))
@@ -30,7 +32,7 @@ def main():
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
     # ADD YOUR CODE HERE
-    #NOTE: add a loop to check if input is valid, but only once you have this working
+
     cd_balance = float(input("Enter the CD account balance: "))
     cd_interest = float(input("Enter the CD interest rate (whole numbers. if 5%, type 5): "))
     cd_maturity = int(input("Enter the number of months for CD account: "))

@@ -5,11 +5,12 @@ from Account import Account
 # Define a function for the CD Account
 def create_cd_account(cd_balance, cd_interest, cd_maturity):
     """Creates a CD account, calculates interest earned, and updates the account balance.
+        Note: Args updated to match modified function names -Brandon Welsh
 
     Args:
-        balance (float): The initial CD account balance.
-        interest_rate (float): The APR interest rate for the CD account.
-        months (int): The length of months for the CD.
+        cd_balance (float): The initial CD account balance.
+        cd_interest (float): The APR interest rate for the CD account.
+        cd_maturity (int): The length of months for the CD.
 
     Returns:
         float: The updated CD account balance after adding the interest earned.

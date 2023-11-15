@@ -5,11 +5,12 @@ from Account import Account
 # Define a function for the Savings Account
 def create_savings_account(savings_balance, savings_interest, savings_maturity):
     """Creates a savings account, calculates interest earned, and updates the account balance.
+        Note: Args updated to match modified function names -Brandon Welsh
 
     Args:
-        balance (float): The initial savings account balance.
-        interest_rate (float): The APR interest rate for the savings account.
-        months (int): The length of months to determine the amount of interest.
+        savings_balance (float): The initial savings account balance.
+        savings_interest (float): The APR interest rate for the savings account.
+        savings_maturity (int): The length of months to determine the amount of interest.
 
     Returns:
         float: The updated savings account balance after adding the interest earned.
